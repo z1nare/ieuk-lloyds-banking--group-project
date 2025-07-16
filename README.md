@@ -12,4 +12,4 @@
 * Recommend affordable and scalable solutions for bot management and traffic control.
 
 ## Project structure:
-### For this project I used Jupyter Notebook - `ieuk-project.ipynb`. All required libraries are in `requirements.txt` and all plots are in `plots`.
+### For this project I used Jupyter Notebook - `ieuk-project.ipynb`. All required libraries are in `requirements.txt`, all plots are in `plots` and the main report is in `REPORT.md`.
