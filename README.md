@@ -10,6 +10,47 @@
 * Determine the root cause of frequent service disruptions.
 
 * Recommend affordable and scalable solutions for bot management and traffic control.
+  
+## 🗂 Project Structure
 
-## Project structure:
-### For this project I used Jupyter Notebook - `ieuk-project.ipynb`. All required libraries are in `requirements.txt`, all plots are in `plots` and the main report is in `REPORT.md`.
+- `ieuk-project.ipynb` – Jupyter notebook with full analysis
+- `REPORT.md` – Summary of findings and recommendations
+- `plots/` – Folder with generated graphs
+  
+## Getting Started
+
+Follow these instructions to set up the project and run the analysis on your local machine.
+
+### Prerequisites
+* Python 3.8 or higher
+* pip (Python package installer)
+
+### Installation & Usage
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/z1nare/ieuk-lloyds-project.git
+    cd your-repo-name
+    ```
+
+2.  **Create and activate a virtual environment (recommended):**
+    ```sh
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # For Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+3.  **Install the required libraries:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4.  **Launch Jupyter Notebook:**
+    ```sh
+    jupyter notebook
+    ```
+    Once Jupyter launches in your browser, open the `ieuk-project.ipynb` file to view the code and analysis. The final report can be found in `REPORT.md`.
